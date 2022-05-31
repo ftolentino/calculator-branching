@@ -23,11 +23,20 @@
 
 // alert(remainderResult);
 
-const userInput = prompt("What is the temperature in Celsius?");
+// const userInput = prompt("What is the temperature in Celsius?");
 
-function convertToFa(temp) {
-  let conversion = (temp * 9) / 5 + 32;
-  alert("the temp is " + conversion + "°F");
+// function convertToFa(temp) {
+//   let conversion = (temp * 9) / 5 + 32;
+//   alert("the temp is " + conversion + "°F");
+// }
+
+// convertToFa(userInput);
+
+const userInput = prompt("Enter gallons");
+
+function convertToLiters(gal) {
+  let convertion = gal * 3.785412;
+  alert(convertion + " liters");
 }
 
-convertToFa(userInput);
+convertToLiters(userInput);
